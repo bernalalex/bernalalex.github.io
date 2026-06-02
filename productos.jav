@@ -28,7 +28,7 @@
 
             {
                 nombre: "Abrazadera unicanal 1/2\" ",
-                precio: "$34.90",
+                precio: "    ",
                 resumen: "Soporte firme para instalaciones con perfil estructural.",
                 descripcion: "Diseno reforzado para montarse en sistemas tipo unicanal, util en instalaciones electricas comerciales y de servicio pesado.",
                 chip: "Unicanal",
@@ -40,7 +40,7 @@
 
             {
                 nombre: "Abrazadera unicanal de 3/4\" ",
-                precio: "$34.90",
+                precio: "    ",
                 resumen: "Soporte firme para instalaciones con perfil estructural.",
                 descripcion: "Diseno reforzado para montarse en sistemas tipo unicanal, util en instalaciones electricas comerciales y de servicio pesado.",
                 chip: "Unicanal",
@@ -52,7 +52,7 @@
 
              {
                 nombre: "Abrazadera unicanal de 1\"",
-                precio: "$13.14",
+                precio: "  ",
                 resumen: "Soporte firme para instalaciones con perfil estructural.",
                 descripcion: "Diseno reforzado para montarse en sistemas tipo unicanal, util en instalaciones electricas comerciales y de servicio pesado.",
                 chip: "Unicanal",
@@ -64,7 +64,7 @@
 
             {
                 nombre: "Abrazadera unicanal 1 1/2\" ",
-                precio: "$34.90",
+                precio: "    ",
                 resumen: "Soporte firme para instalaciones con perfil estructural.",
                 descripcion: "Diseno reforzado para montarse en sistemas tipo unicanal, util en instalaciones electricas comerciales y de servicio pesado.",
                 chip: "Unicanal",
@@ -76,7 +76,7 @@
 
              {
                 nombre: "Abrazadera unicanal 1 1/4\" ",
-                precio: "$34.90",
+                precio: "   ",
                 resumen: "Soporte firme para instalaciones con perfil estructural.",
                 descripcion: "Diseno reforzado para montarse en sistemas tipo unicanal, util en instalaciones electricas comerciales y de servicio pesado.",
                 chip: "Unicanal",
@@ -89,7 +89,7 @@
 
                 {
                 nombre: "Abrazadera unicanal de 2\" ",
-                precio: "$13.14",
+                precio: "    ",
                 resumen: "Soporte firme para instalaciones con perfil estructural.",
                 descripcion: "Diseno reforzado para montarse en sistemas tipo unicanal, util en instalaciones electricas comerciales y de servicio pesado.",
                 chip: "Unicanal",
@@ -100,7 +100,7 @@
             },
             {
                 nombre: "Abrazadera unicanal de 2 1/2\" ",
-                precio: "$34.90",
+                precio: "  ",
                 resumen: "Soporte firme para instalaciones con perfil estructural.",
                 descripcion: "Diseno reforzado para montarse en sistemas tipo unicanal, util en instalaciones electricas comerciales y de servicio pesado.",
                 chip: "Unicanal",
@@ -111,7 +111,7 @@
             },
             {
                 nombre: "Abrazadera unicanal de 3\" ",
-                precio: "$34.90",
+                precio: "    ",
                 resumen: "Soporte firme para instalaciones con perfil estructural.",
                 descripcion: "Diseno reforzado para montarse en sistemas tipo unicanal, util en instalaciones electricas comerciales y de servicio pesado.",
                 chip: "Unicanal",
@@ -129,7 +129,7 @@
              //ABRAZADERA TIPO  U
                 {
                     nombre: "Abrazadera tipo U roscada de 1/4\" P/tubo de 1\"    SKU:U120100 ",
-                    precio: "$28.06",
+                    precio: "      ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -141,7 +141,7 @@
 
                   {
                     nombre: "Abrazadera tipo U roscada de 1/4\" P/tubo de 1 1/2\"    SKU:U120112 ",
-                    precio: "$28.06",
+                    precio: "     ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -153,7 +153,7 @@
 
                 {
                     nombre: "Abrazadera tipo U roscada de 1/4\" P/tubo de 1 1/4\"    SKU:U120114 ",
-                    precio: "$28.06",
+                    precio: "     ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -165,7 +165,7 @@
 
                 {
                     nombre: "Abrazadera tipo U roscada de 1/4\" P/tubo de 1/2\"    SKU:U12012 ",
-                    precio: "$28.06",
+                    precio: "     ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -177,7 +177,7 @@
 
              {
                     nombre: "Abrazadera tipo U roscada de 1/4\" P/tubo de 2\"    SKU:U120200 ",
-                    precio: "$28.06",
+                    precio: "     ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -189,7 +189,7 @@
 
              {
                     nombre: "Abrazadera tipo U roscada de 1/4\" P/tubo de 3/4\"    SKU:U12034 ",
-                    precio: "$28.06",
+                    precio: "     ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -201,7 +201,7 @@
 
              {
                     nombre: "Abrazadera tipo U roscada de 3/8\" P/tubo de 3\"    SKU:U120300 ",
-                    precio: "$28.06",
+                    precio: "     ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -213,7 +213,7 @@
 
             {
                     nombre: "Abrazadera tipo U roscada de 3/8\" P/tubo de 4\"    SKU:U120400 ",
-                    precio: "$28.06",
+                    precio: "     ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -225,7 +225,7 @@
 
              {
                     nombre: "Abrazadera tipo U roscada de 6\"    SKU:U120600 ",
-                    precio: "$28.06",
+                    precio: "    ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -237,7 +237,7 @@
 
                {
                     nombre: " HUBBELL Abrazadera tipo U roscada de 1/2 P\"   SKU:2352RC ",
-                    precio: "$28.06",
+                    precio: "    ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -249,7 +249,7 @@
 
               {
                     nombre: " HUBBELL Abrazadera tipo U roscada de 3/4 P\"   SKU:2353RC ",
-                    precio: "$28.06",
+                    precio: "     ",
                 resumen: "Pieza galvanizada para fijacion confiable en montaje industrial.",
                 descripcion: "Abrazadera galvanizada ideal para sujetar tuberia o canalizacion ligera con buen nivel de resistencia a la corrosion.",
                 chip: "Tipo U",
@@ -275,7 +275,7 @@
 //ABRAZADERAS TIPO    "OMEGA"
             {
                 nombre: "Abrazadera tipo Omega industrial 1/2\" (13mm) SKU:OT12",
-                precio: "$31.50",
+                precio: "   ",
                 resumen: "Ajuste estable para instalaciones ordenadas y compactas.",
                 descripcion: "Solucion practica para fijar conducto con un perfil discreto y rapido de instalar en tableros o muros tecnicos.",
                 chip: "Tipo Omega",
@@ -286,7 +286,7 @@
             },
               {
                 nombre: "Abrazadera tipo Omega industrial 3/4\" (19mm) SKU:OT34",
-                precio: "$31.50",
+                precio: "    ",
                 resumen: "Ajuste estable para instalaciones ordenadas y compactas.",
                 descripcion: "Solucion practica para fijar conducto con un perfil discreto y rapido de instalar en tableros o muros tecnicos.",
                 chip: "Tipo Omega",
@@ -297,7 +297,7 @@
             },
              {
                 nombre: "Abrazadera tipo Omega industrial 1\" (25mm) SKU:OT100",
-                precio: "$31.50",
+                precio: "     ",
                 resumen: "Ajuste estable para instalaciones ordenadas y compactas.",
                 descripcion: "Solucion practica para fijar conducto con un perfil discreto y rapido de instalar en tableros o muros tecnicos.",
                 chip: "Tipo Omega",
@@ -308,7 +308,7 @@
             },
              {
                 nombre: "Abrazadera tipo Omega industrial 1 1/2\" (38mm) SKU:OT112",
-                precio: "$31.50",
+                precio: "     ",
                 resumen: "Ajuste estable para instalaciones ordenadas y compactas.",
                 descripcion: "Solucion practica para fijar conducto con un perfil discreto y rapido de instalar en tableros o muros tecnicos.",
                 chip: "Tipo Omega",
@@ -320,7 +320,7 @@
 
             {
                 nombre: "Abrazadera tipo Omega industrial 1 1/4\" (32mm) SKU:OT114",
-                precio: "$31.50",
+                precio: "      ",
                 resumen: "Ajuste estable para instalaciones ordenadas y compactas.",
                 descripcion: "Solucion practica para fijar conducto con un perfil discreto y rapido de instalar en tableros o muros tecnicos.",
                 chip: "Tipo Omega",
@@ -332,7 +332,7 @@
 
             {
                 nombre: "Abrazadera tipo Omega industrial 2\" (51mm) SKU:OT200",
-                precio: "$31.50",
+                precio: "     ",
                 resumen: "Ajuste estable para instalaciones ordenadas y compactas.",
                 descripcion: "Solucion practica para fijar conducto con un perfil discreto y rapido de instalar en tableros o muros tecnicos.",
                 chip: "Tipo Omega",
@@ -344,7 +344,7 @@
 
              {
                 nombre: "Abrazadera tipo Omega industrial 2 1/2\" (63mm) SKU:OT212",
-                precio: "$31.50",
+                precio: "     ",
                 resumen: "Ajuste estable para instalaciones ordenadas y compactas.",
                 descripcion: "Solucion practica para fijar conducto con un perfil discreto y rapido de instalar en tableros o muros tecnicos.",
                 chip: "Tipo Omega",
