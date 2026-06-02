@@ -64,7 +64,7 @@
 
             {
                 nombre: "Abrazadera unicanal 1 1/2\" ",
-                precio: "    ",
+                precio: "     ",
                 resumen: "Soporte firme para instalaciones con perfil estructural.",
                 descripcion: "Diseno reforzado para montarse en sistemas tipo unicanal, util en instalaciones electricas comerciales y de servicio pesado.",
                 chip: "Unicanal",
