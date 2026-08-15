@@ -2682,10 +2682,6 @@ function crearTarjeta(item, categoriaClave) {
     const nombre = document.createElement("h4");
     nombre.textContent = item.nombre || "";
 
-    const precio = document.createElement("p");
-    precio.className = "precio";
-    precio.textContent = item.precio || "";
-
     const resumen = document.createElement("p");
     resumen.className = "resumen";
     resumen.textContent = item.resumen || "";
@@ -2696,7 +2692,6 @@ function crearTarjeta(item, categoriaClave) {
 
     body.appendChild(chip);
     body.appendChild(nombre);
-    body.appendChild(precio);
     body.appendChild(resumen);
     body.appendChild(descripcion);
 
@@ -2767,7 +2762,6 @@ function registrarEventosBase() {
 function abrirDetalle(card) {
     document.getElementById("imgDetalle").src = card.querySelector("img").src;
     document.getElementById("tituloDetalle").textContent = card.querySelector("h4").textContent;
-    document.getElementById("precioDetalle").textContent = card.querySelector(".precio").textContent;
     document.getElementById("descDetalle").textContent = card.querySelector(".desc").textContent;
     document.getElementById("categoriaDetalle").textContent = card.querySelector(".chip").textContent;
 

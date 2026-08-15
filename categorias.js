@@ -79,7 +79,7 @@ function crearDetalle() {
     detalle.className = "detalle";
     detalle.id = "detalleCategoria";
     detalle.setAttribute("aria-hidden", "true");
-    detalle.innerHTML = `<div class="detalle-box" role="dialog" aria-modal="true" aria-labelledby="tituloDetalleCategoria"><button class="cerrar-detalle" type="button" aria-label="Cerrar detalle">✖</button><div class="img-box"><img id="imgDetalleCategoria" alt="Imagen del producto seleccionado"></div><div class="info-box"><p class="detalle-etiqueta" id="categoriaDetalleCategoria"></p><h2 id="tituloDetalleCategoria"></h2><p class="detalle-precio">Consulta precio y disponibilidad</p><p id="descDetalleCategoria"></p></div></div>`;
+    detalle.innerHTML = `<div class="detalle-box" role="dialog" aria-modal="true" aria-labelledby="tituloDetalleCategoria"><button class="cerrar-detalle" type="button" aria-label="Cerrar detalle">✖</button><div class="img-box"><img id="imgDetalleCategoria" alt="Imagen del producto seleccionado"></div><div class="info-box"><p class="detalle-etiqueta" id="categoriaDetalleCategoria"></p><h2 id="tituloDetalleCategoria"></h2><p id="descDetalleCategoria"></p></div></div>`;
     document.body.appendChild(detalle);
     detalle.addEventListener("click", (evento) => {
         if (evento.target === detalle || evento.target.closest(".cerrar-detalle")) cerrarDetalleCategoria();
