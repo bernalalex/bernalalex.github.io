@@ -1,4 +1,4 @@
-﻿:root {
+:root {
     --bg: #e7edf4;
     --surface: #ffffff;
     --surface-soft: #f8fafc;
@@ -89,6 +89,23 @@ img {
     min-width: 0;
 }
 
+.brand-identity {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-logo {
+    flex: 0 0 auto;
+    width: 90px;
+    height: 66px;
+    padding: 0;
+    border-radius: 0;
+    object-fit: contain;
+    background: transparent;
+    box-shadow: none;
+}
+
 .eyebrow {
     margin: 0 0 4px;
     font-size: 12px;
@@ -103,9 +120,86 @@ img {
     line-height: 1.15;
 }
 
+.business-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.business-categories a {
+    padding: 6px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    border-radius: 999px;
+    color: white;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.business-categories a:hover,
+.business-categories a:focus-visible {
+    color: var(--primary-deep);
+    background: white;
+}
+
+.business-categories a[aria-current="page"] {
+    color: white;
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.32);
+}
+
 .buscador-container {
     display: flex;
     justify-content: flex-end;
+}
+
+.category-page-header {
+    grid-template-columns: auto minmax(220px, 1fr) minmax(260px, 400px) minmax(220px, 310px);
+}
+
+.category-search {
+    width: 100%;
+}
+
+.category-search input {
+    width: 100%;
+    padding: 13px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 999px;
+    color: white;
+    background: rgba(255, 255, 255, 0.13);
+    outline: none;
+}
+
+.category-search input::placeholder {
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.category-search input:focus {
+    border-color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.category-contact-inline {
+    display: grid;
+    gap: 3px;
+    padding-left: 16px;
+    border-left: 1px solid rgba(255, 255, 255, 0.28);
+    color: rgba(255, 255, 255, 0.84);
+    font-size: 0.78rem;
+    line-height: 1.25;
+}
+
+.category-contact-inline strong {
+    color: white;
+    font-size: 0.82rem;
+}
+
+.category-contact-inline a {
+    width: fit-content;
+    color: rgba(255, 255, 255, 0.88);
 }
 
 #buscador {
@@ -404,11 +498,18 @@ main {
     cursor: pointer;
     box-shadow: 0 12px 35px rgba(15, 23, 42, 0.08);
     transition: transform 0.22s ease, box-shadow 0.22s ease;
+    content-visibility: auto;
+    contain-intrinsic-size: 360px;
 }
 
 .card:hover {
     transform: translateY(-6px);
     box-shadow: 0 18px 40px rgba(17, 70, 166, 0.16);
+}
+
+.page-ready[data-catalogo] .categoria-grid .card {
+    animation: cardIn 0.46s ease both;
+    animation-delay: calc(min(var(--card-index, 0), 10) * 35ms);
 }
 
 .card[hidden],
@@ -474,6 +575,37 @@ main {
     text-align: center;
     color: var(--muted);
     background: rgba(255, 255, 255, 0.58);
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    padding: 32px max(24px, calc((100vw - 1192px) / 2));
+    color: white;
+    background: linear-gradient(135deg, var(--primary-deep), var(--primary));
+}
+
+.contacto h2 {
+    margin: 0;
+    font-size: 1.35rem;
+}
+
+.contacto-datos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px 22px;
+}
+
+.contacto-datos p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.contacto-datos a {
+    color: white;
 }
 
 .whatsapp-float {
@@ -605,6 +737,28 @@ main {
     }
 }
 
+@keyframes cardIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
 @media (max-width: 1024px) {
     main {
         padding-right: 24px;
@@ -619,6 +773,21 @@ main {
 
     .buscador-container {
         grid-column: 1 / -1;
+    }
+
+    .category-page-header {
+        grid-template-columns: auto 1fr;
+    }
+
+    .category-search,
+    .category-contact-inline {
+        grid-column: 1 / -1;
+    }
+
+    .category-contact-inline {
+        grid-template-columns: repeat(3, max-content);
+        padding: 0;
+        border-left: 0;
     }
 
     .hero,
@@ -653,6 +822,15 @@ main {
         padding-bottom: 16px;
     }
 
+    .brand-logo {
+        width: 62px;
+        height: 52px;
+    }
+
+    .category-contact-inline {
+        grid-template-columns: 1fr;
+    }
+
     .hero,
     .productos-wrapper {
         padding: 20px 18px;
@@ -677,5 +855,14 @@ main {
 
     .whatsapp-copy {
         font-size: 0.9rem;
+    }
+
+    .contacto {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .contacto-datos {
+        justify-content: flex-start;
     }
 }
