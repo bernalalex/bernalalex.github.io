@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos de limpieza | Dimeferindustry</title>
+    <link rel="stylesheet" href="productos.css">
+</head>
+<body data-catalogo="limpieza">
+    <header class="header category-page-header">
+        <a class="btn-cat" href="productos.html" aria-label="Volver al catálogo principal">←</a>
+        <div class="brand">
+            <div class="brand-identity">
+                <img class="brand-logo" src="assets/dimeferindustry-logo-v2.png" alt="Logo Dimeferindustry">
+                <div>
+                    <p class="eyebrow">Dimeferindustry</p>
+                    <h1 class="titulo-header">Productos de limpieza</h1>
+                </div>
+            </div>
+            <nav class="business-categories" aria-label="Categorias">
+                <a href="productos.html">Material eléctrico</a>
+                <a href="ferreteria.html">Productos de ferretería</a>
+                <a href="limpieza.html" aria-current="page">Productos de limpieza</a>
+            </nav>
+        </div>
+        <div class="category-search">
+            <label class="sr-only" for="buscadorCategoria">Buscar productos de limpieza</label>
+            <input type="search" id="buscadorCategoria" placeholder="Buscar productos de limpieza...">
+        </div>
+        <div class="category-contact-inline">
+            <strong>Ing. Alexander Bernal Vázquez</strong>
+            <a href="tel:7221224599">722 122 4599</a>
+            <a href="mailto:dimeferindustry@hotmail.com">dimeferindustry@hotmail.com</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero reveal reveal-delay-1">
+            <div>
+                <p class="hero-kicker">Limpieza para hogar y negocio</p>
+                <h2 class="titulo">Productos de limpieza</h2>
+                <p class="hero-copy">Encuentra artículos esenciales para mantener tus espacios limpios y listos para trabajar.</p>
+            </div>
+        </section>
+        <section class="productos-wrapper reveal reveal-delay-2">
+            <div class="productos-head"><h3>Catálogo disponible</h3><p>Consulta existencias y precios con nosotros.</p></div>
+            <div class="categoria-grid" id="productosCategoria">
+                <article class="card"><img src="https://placehold.co/600x450/e8f2ff/113579?text=Escoba" alt="Escoba"><div class="card-body"><span class="chip">Limpieza</span><h4>Escoba de cerdas resistentes</h4><p class="resumen">Ideal para barrer pisos interiores y exteriores.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/e8f2ff/113579?text=Jab%C3%B3n" alt="Jabón líquido"><div class="card-body"><span class="chip">Limpieza</span><h4>Jabón líquido multiusos</h4><p class="resumen">Para limpieza general de superficies.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/e8f2ff/113579?text=Cloro" alt="Cloro"><div class="card-body"><span class="chip">Desinfección</span><h4>Cloro desinfectante</h4><p class="resumen">Apoyo para limpieza y desinfección de áreas.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/e8f2ff/113579?text=Detergente" alt="Detergente"><div class="card-body"><span class="chip">Lavado</span><h4>Detergente en polvo</h4><p class="resumen">Producto práctico para ropa y limpieza diaria.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/e8f2ff/113579?text=Fibras" alt="Fibras de limpieza"><div class="card-body"><span class="chip">Accesorios</span><h4>Fibras y esponjas</h4><p class="resumen">Para tallar utensilios, baños y superficies resistentes.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/e8f2ff/113579?text=Jalador" alt="Jalador de piso"><div class="card-body"><span class="chip">Accesorios</span><h4>Jalador de piso</h4><p class="resumen">Facilita el secado de pisos y áreas amplias.</p></div></article>
+            </div>
+            <p class="sin-resultados" id="sinResultadosCategoria" hidden>No encontramos productos con ese criterio.</p>
+        </section>
+    </main>
+    <footer class="contacto"><div><p class="eyebrow">Contacto</p><h2>Estamos para atenderte</h2></div><div class="contacto-datos"><p><strong>Ing.:</strong> Alexander Bernal Vázquez</p><p><strong>Teléfono:</strong> <a href="tel:7221224599">722-122-4599</a></p><p><strong>Correo:</strong> <a href="mailto:dimeferindustry@hotmail.com">dimeferindustry@hotmail.com</a></p></div></footer>
+    <script src="categorias.js" defer></script>
+</body>
+</html>

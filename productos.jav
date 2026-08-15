@@ -1,4 +1,4 @@
-const catalogo = {
+﻿const catalogo = {
 
 
 //ABRAZADERAZ DE TODO TIPO

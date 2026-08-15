@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos de ferretería | Dimeferindustry</title>
+    <link rel="stylesheet" href="productos.css">
+</head>
+<body data-catalogo="ferreteria">
+    <header class="header category-page-header">
+        <a class="btn-cat" href="productos.html" aria-label="Volver al catálogo principal">←</a>
+        <div class="brand">
+            <div class="brand-identity">
+                <img class="brand-logo" src="assets/dimeferindustry-logo-v2.png" alt="Logo Dimeferindustry">
+                <div>
+                    <p class="eyebrow">Dimeferindustry</p>
+                    <h1 class="titulo-header">Productos de ferretería</h1>
+                </div>
+            </div>
+            <nav class="business-categories" aria-label="Categorias">
+                <a href="productos.html">Material eléctrico</a>
+                <a href="ferreteria.html" aria-current="page">Productos de ferretería</a>
+                <a href="limpieza.html">Productos de limpieza</a>
+            </nav>
+        </div>
+        <div class="category-search">
+            <label class="sr-only" for="buscadorCategoria">Buscar productos de ferretería</label>
+            <input type="search" id="buscadorCategoria" placeholder="Buscar productos de ferretería...">
+        </div>
+        <div class="category-contact-inline">
+            <strong>Ing. Alexander Bernal Vázquez</strong>
+            <a href="tel:7221224599">722 122 4599</a>
+            <a href="mailto:dimeferindustry@hotmail.com">dimeferindustry@hotmail.com</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero reveal reveal-delay-1">
+            <div>
+                <p class="hero-kicker">Material para construcción y reparación</p>
+                <h2 class="titulo">Productos de ferretería</h2>
+                <p class="hero-copy">Materiales y herramientas básicos para tus proyectos de obra, mantenimiento y reparación.</p>
+            </div>
+        </section>
+        <section class="productos-wrapper reveal reveal-delay-2">
+            <div class="productos-head"><h3>Catálogo disponible</h3><p>Consulta existencias y precios con nosotros.</p></div>
+            <div class="categoria-grid" id="productosCategoria">
+                <article class="card"><img src="https://placehold.co/600x450/fff3d7/8a4b08?text=Cemento" alt="Bulto de cemento"><div class="card-body"><span class="chip">Construcción</span><h4>Cemento gris</h4><p class="resumen">Material esencial para mezclas y trabajos de construcción.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/fff3d7/8a4b08?text=Concreto" alt="Concreto"><div class="card-body"><span class="chip">Construcción</span><h4>Concreto premezclado</h4><p class="resumen">Práctico para reparaciones, firmes y trabajos de obra.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/fff3d7/8a4b08?text=Clavos" alt="Clavos"><div class="card-body"><span class="chip">Fijación</span><h4>Clavos de acero</h4><p class="resumen">Disponibles para diferentes necesidades de fijación.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/fff3d7/8a4b08?text=Tornillos" alt="Tornillos"><div class="card-body"><span class="chip">Fijación</span><h4>Tornillos surtidos</h4><p class="resumen">Para instalaciones, montaje y reparaciones generales.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/fff3d7/8a4b08?text=Martillo" alt="Martillo"><div class="card-body"><span class="chip">Herramientas</span><h4>Martillo de uña</h4><p class="resumen">Herramienta básica para trabajos de fijación.</p></div></article>
+                <article class="card"><img src="https://placehold.co/600x450/fff3d7/8a4b08?text=Cinta+M%C3%A9trica" alt="Cinta métrica"><div class="card-body"><span class="chip">Herramientas</span><h4>Cinta métrica</h4><p class="resumen">Para medir con precisión en proyectos y reparaciones.</p></div></article>
+            </div>
+            <p class="sin-resultados" id="sinResultadosCategoria" hidden>No encontramos productos con ese criterio.</p>
+        </section>
+    </main>
+    <footer class="contacto"><div><p class="eyebrow">Contacto</p><h2>Estamos para atenderte</h2></div><div class="contacto-datos"><p><strong>Ing.:</strong> Alexander Bernal Vázquez</p><p><strong>Teléfono:</strong> <a href="tel:7221224599">722-122-4599</a></p><p><strong>Correo:</strong> <a href="mailto:dimeferindustry@hotmail.com">dimeferindustry@hotmail.com</a></p></div></footer>
+    <script src="categorias.js" defer></script>
+</body>
+</html>
